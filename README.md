@@ -16,6 +16,7 @@ https://www.youtube.com/watch?v=nb2MnwL9Cps
 - macOS Mojave 
 - Python 3.7.2 
 - appium 1.16.0
+- device Android 6.0 x86
 
 #### Useful links:
 - https://www.swtestacademy.com/how-to-install-appium-on-mac/
