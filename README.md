@@ -12,6 +12,8 @@ Example is based on BDD Test Scenario (Successful Login).
 #### Result:
 https://www.youtube.com/watch?v=nb2MnwL9Cps
 
+<img src="https://github.com/safo-bora/MobileTestingWithAppium/blob/master/screens/Screen%20Shot%202020-01-28%20at%202.41.39%20PM.png">
+
 #### Environment:
 - macOS Mojave 
 - Python 3.7.2 
