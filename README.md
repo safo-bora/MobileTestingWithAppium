@@ -7,7 +7,8 @@ Example is based on BDD Test Scenario (Successful Login).
 #### How to run:
 1. Go to project root folder "MobileTestingWithAppium"
 2. Add credential from instagram account to config file (/features/credentials.py)
-3. Execute command: "behave"
+3. Update desired capabilities for Android (/features/environment.py)
+4. Execute command: "behave"
 
 #### Result:
 https://www.youtube.com/watch?v=nb2MnwL9Cps
