@@ -2,8 +2,11 @@ env:
   agents: mac-os
 
 steps:
-  - name: "Pipeline example"
-    commands: echo "Hello!"
+  - label: "Pipeline example"
+    commands: ls -l -a 
+              pwd
         
-  - name: "Pipeline example - 2"
+  - label: "Pipeline example - 2"
     command: "echo $BUILDKITE_MESSAGE"
+    
+   
