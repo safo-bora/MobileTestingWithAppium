@@ -6,4 +6,4 @@ steps:
     commands: echo "Hello!"
         
   - name: "Pipeline example - 2"
-    command: "echo Hello - 222"
+    command: "echo $BUILDKITE_MESSAGE"
