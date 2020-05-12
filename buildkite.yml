@@ -1,8 +1,9 @@
+env:
+  agents: mac-os
+
 steps:
-  - label: "debug - 222"
-    agents: mac-os
-    commands: 
-        echo "Hello!"
-        
   - name: "Pipeline example"
-    command: "echo $LEVEL"
+    commands: echo "Hello!"
+        
+  - name: "Pipeline example - 2"
+    command: "echo Hello - 222"
