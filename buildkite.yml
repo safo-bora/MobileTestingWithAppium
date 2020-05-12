@@ -1,3 +1,6 @@
 steps:
-  - label: "Example Test"
-    command: echo "Hello!"
+  - label: "debug - 222"
+    agents: 
+         mac-os
+    command: 
+        echo "Hello!"
