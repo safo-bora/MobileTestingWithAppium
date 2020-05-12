@@ -3,4 +3,6 @@ steps:
     agents: mac-os
     commands: 
         echo "Hello!"
-        env 
+        
+  - name: "Pipeline example"
+    command: "echo $LEVEL"
