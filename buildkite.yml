@@ -1,6 +1,6 @@
 steps:
   - label: "debug - 222"
-    agents: 
-         mac-os
-    command: 
+    agents: mac-os
+    commands: 
         echo "Hello!"
+        env 
