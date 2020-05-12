@@ -3,8 +3,9 @@ env:
 
 steps:
   - label: "Pipeline example"
-    commands: ls -l -a 
-              pwd
+    command: 
+      - 'ls -l -a'
+      - 'pwd'
         
   - label: "Pipeline example - 2"
     command: "echo $BUILDKITE_MESSAGE"
